@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Review - The 2028 Presidential Election</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #000;
+      color: white;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 90%;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .main-header {
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      color: #fff;
+      border-bottom: 2px solid #444;
+      padding-bottom: 10px;
+    }
+
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: space-between;
+    }
+
+    .column {
+      width: 48%;
+      margin-bottom: 20px;
+    }
+
+    .article-body {
+      font-size: 1.1rem;
+      text-align: justify;
+    }
+
+    .pull-quote {
+      font-size: 1.3rem;
+      font-style: italic;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    .image {
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding-top: 10px;
+    }
+
+    .source-bubble {
+      display: inline-block;
+      background-color: red;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .source-bubble:hover {
+      background-color: darkred;
+    }
+
+    .source-list {
+      display: none;
+      margin-top: 10px;
+      font-size: 0.9rem;
+      color: red;
+      background-color: #111;
+      padding: 15px;
+      border-radius: 10px;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+    }
+
+    .back-button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 1rem;
+      background-color: red;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .back-button:hover {
+      background-color: darkred;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="main-header">Review: Countdown to the 2028 Presidential Election</h1>
+
+    <div class="content">
+      <div class="column">
+        <p class="article-body">As the 2028 U.S. Presidential Election draws closer, the political landscape remains volatile and unpredictable. With a divided electorate and numerous challenges, the stakes for this election are unprecedented. The future of the nation hinges on decisions that will shape the direction of American democracy, with critical issues at play regarding governance, the economy, and foreign relations.</p>
+
+        <h2>Media Influence and the Role of Social Media</h2>
+        <p class="article-body">In recent years, social media has become a double-edged sword in political engagement. While it has democratized information and empowered ordinary citizens, it has also been weaponized in authoritarian regimes to manipulate public opinion and suppress dissent. The 2028 election will undoubtedly see more of this dynamic play out, with social media platforms being utilized to influence voter behavior, particularly among younger demographics. As noted by Yilmaz et al. (2024), platforms like Twitter and Facebook are crucial in shaping political discourse in democracies and authoritarian states alike.</p>
+
+        <p class="pull-quote">"Social media remains both a powerful tool for political engagement and a platform for authoritarian regimes to influence public perception." - Political Analyst</p>
+
+        <h2>The Impact of Government Oversight on Public Agencies</h2>
+        <p class="article-body">Another critical issue is the government's increasing oversight over scientific and public health institutions. The Trump administration's restrictions on the CDC's ability to freely communicate research findings have raised concerns about the manipulation of scientific data for political gain. As Huang and Stone (2025) reported, these actions have led to severe delays in the release of vital public health information, which could impact voters' trust in the electoral process and the government's handling of national crises.</p>
+
+        <h2>The Role of Key Figures and Scandals</h2>
+        <p class="article-body">High-profile figures such as Elon Musk continue to dominate the conversation surrounding the 2028 election. Musk’s influence extends far beyond his technological ventures, as his actions, including efforts to reshape the U.S. General Services Administration (GSA), are contributing to the increasingly volatile political climate. His moves raise questions about the intersection of business, technology, and government, and whether such figures should hold such significant sway over public affairs. Additionally, scandals involving key government figures, like National Security Adviser Mike Waltz, whose impending departure is linked to a major communications scandal, are further exacerbating public skepticism of government transparency and accountability (Lee et al., 2025).</p>
+
+      </div>
+
+      <div class="column">
+        <img src="fire.jpg" alt="2028 Election" class="image" />
+      </div>
+    </div>
+
+    <footer>
+      <div class="source-bubble" onclick="toggleSources()">Sources</div>
+      <div class="source-list" id="sourceList">
+        <ul>
+          <li>Alms, N. (2025). Musk takes aim at GSA tech shop. <em>Nextgov.com</em>, N.PAG.</li>
+          <li>Yilmaz, I., Akbarzadeh, S., Abbasov, N., & Bashirov, G. (2024). The Double-Edged Sword: Political Engagement on Social Media and Its Impact on Democracy Support in Authoritarian Regimes. <em>Political Research Quarterly, 1</em>. <a href="https://doi-org.ezproxy4.library.arizona.edu/10.1177/10659129241305035" target="_blank">https://doi.org/10.1177/10659129241305035</a></li>
+          <li>Lee, C. E., Tsirskin, J., Alcindor, Y., Gregorian, D., & De Luc, D. (2025, May 1). National security adviser Mike Waltz, major figure in signal scandal, expected to depart his post. <em>NBC News</em>. <a href="https://www.nbcnews.com/politics/trump-administration/national-security-adviser-michael-waltz-expected-depart-post-reports-rcna204087" target="_blank">https://www.nbcnews.com/politics/trump-administration/national-security-adviser-michael-waltz-expected-depart-post-reports-rcna204087</a></li>
+          <li>Huang, P., & Stone, W. (2025b, February 14). Trump administration restricts CDC research and messaging with layers of oversight. <em>NPR</em>. <a href="https://www.npr.org/sections/shots-health-news/2025/02/13/nx-s1-5297177/cdc-scientists-publications-trump-administration" target="_blank">https://www.npr.org/sections/shots-health-news/2025/02/13/nx-s1-5297177/cdc-scientists-publications-trump-administration</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <button onclick="goBack()" class="back-button">Back to Countdown</button>
+  </div>
+
+  <script>
+    function goBack() {
+      window.location.href = "next.html";
+    }
+
+    function toggleSources() {
+      const sourceList = document.getElementById("sourceList");
+      sourceList.style.display = sourceList.style.display === "block" ? "none" : "block";
+    }
+  </script>
+</body>
+</html>
